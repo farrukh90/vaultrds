@@ -39,4 +39,4 @@ jobs:
           
       - name: Apply
         run: |
-          echo "${{ secrets.ACCESS_KEY }}"
+          echo  " this is the credential we are using ${{ secrets.ACCESS_KEY }} sdfsfd"
