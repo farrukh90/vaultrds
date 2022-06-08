@@ -10,6 +10,7 @@ resource "random_password" "random" {
   upper            = false
 }
 
+data "aws_availability_zones" "all" {}
 
 
 resource "vault_generic_secret" "db" {
