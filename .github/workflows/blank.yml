@@ -39,4 +39,4 @@ jobs:
           
       - name: Apply
         run: |
-          echo "${secrets.ACCESS_KEY}"
+          echo "${{ secrets.ACCESS_KEY }}"
